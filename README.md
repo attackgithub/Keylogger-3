@@ -1,5 +1,5 @@
 # Keylogger
-A keylogger that uses Gmail as C&C.
+A simple keylogger that uses Gmail as C&C.
 
 **NOTICE:** DO NOT USE YOUR PERSONAL EMAIL
 
@@ -23,7 +23,7 @@ A keylogger that uses Gmail as C&C.
 10. You're basically login into the same email as the program and sending an email to yourself.
 
 ### Usage
-1. Vists https://myaccount.google.com/lesssecureapps and Enable less-secure-apps on your gmail(DO NOT USE YOUR PERSONAL EMAIL)
+1. Enable [less-secure-apps](https://myaccount.google.com/lesssecureapps) on your gmail(DO NOT USE YOUR PERSONAL EMAIL)
 2. Change directory to the build folder
 3. run python build.py -h
 4. Use "-t python" option to create a normal Python File
