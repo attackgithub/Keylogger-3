@@ -16,7 +16,7 @@ A keylogger that uses Gmail as C&C.
 ### Command
 1. Login into same Gmail account that the program is using
 2. Press Compose, to create a new email
-3. Set the "To" field to the Gmail the program is using
+3. Set the "To" field to the email address the program is using
 4. Set the "Subject" field to Command
 5. In the body field type a command. Right now a command is either REMOVE or PERSIST
 6. Press Send and wait, the program only checks for commands every 2 minutes
