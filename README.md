@@ -28,3 +28,7 @@ A simple keylogger that uses Gmail as C&C.
 3. run python build.py -h
 4. Use "-t python" option to create a normal Python File
 5. Use "-t exe" option to create an executable(Only on Windows)
+
+
+### Video
+Watch it [here](https://www.youtube.com/watch?v=vBwotqamsxg)
