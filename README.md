@@ -4,7 +4,7 @@ A simple keylogger that uses Gmail as C&C.
 **NOTICE:** DO NOT USE YOUR PERSONAL EMAIL
 
 ### Use cases
-1. When you want to know what your uncle was using your laptop for
+1. When you want to know what your uncle want to use your laptop for
 
 ### Install
 ```pip install -r requirements.txt```
