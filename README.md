@@ -17,8 +17,10 @@ Just another broke a<b>**</b> college student trying to make money. **$5** would
 * Python *v3.6.x* | *3.7.x*
 * Windows **(Only if you want to compile it)**
 
-### Install
-```pip install -r requirements.txt```
+### Installation
+```sh
+pip install -r requirements.txt
+```
 
 ### Usage
 * Enable [less-secure-apps](https://myaccount.google.com/lesssecureapps) on your gmail
