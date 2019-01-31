@@ -7,7 +7,7 @@ It's not perfect, I wrote it like in two school days. That's why it looks rushed
 [![Video](https://img.shields.io/badge/Video-Tutorial-yellow.svg)](https://www.youtube.com/watch?v=vBwotqamsxg)
 
 ### Support
-Just another broke a** college student trying to make money. **$5** would be enough, thanks.<br>
+Just another broke a<b>**</b> college student trying to make money. **$5** would be enough, thanks.<br><br>
 [![Donate](https://img.shields.io/badge/PayPal-Donate-orange.svg)](https://www.paypal.me/Msheikh03)
 
 
